@@ -13,7 +13,7 @@ const numToWord = {
     9:"Nine"
 }
 
-
+const numConverter = num => numToWord[num]
 
 
 
