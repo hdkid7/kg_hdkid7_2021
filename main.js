@@ -15,5 +15,5 @@ const numToWord = {
 
 const numConverter = num => numToWord[num]
 
-
+const joinArray = arr => arr.join("")
 
