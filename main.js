@@ -17,3 +17,4 @@ const numConverter = num => numToWord[num]
 
 const joinArray = arr => arr.join("")
 
+const splitter = userArguments.map(x => x.split("").map(y => numConverter(parseInt(y))))
